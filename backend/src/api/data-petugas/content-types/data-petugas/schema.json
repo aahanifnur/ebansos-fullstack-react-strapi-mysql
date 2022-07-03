@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_petugases",
+  "info": {
+    "singularName": "data-petugas",
+    "pluralName": "data-petugases",
+    "displayName": "DataPetugas"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NIK": {
+      "type": "biginteger",
+      "required": true
+    },
+    "nama": {
+      "type": "string",
+      "required": true
+    },
+    "alamat": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

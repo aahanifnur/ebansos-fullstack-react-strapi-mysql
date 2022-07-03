@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_penerimas",
+  "info": {
+    "singularName": "data-penerima",
+    "pluralName": "data-penerimas",
+    "displayName": "DataPenerima"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NIK": {
+      "type": "biginteger",
+      "required": true
+    },
+    "namaPenerima": {
+      "type": "string",
+      "required": true
+    },
+    "alamat": {
+      "type": "text",
+      "required": true
+    },
+    "desa": {
+      "type": "string",
+      "required": true
+    },
+    "kecamatan": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

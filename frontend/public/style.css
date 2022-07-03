@@ -1,0 +1,20 @@
+#cover {
+    background-image: url(img/mensoss.jpg);
+    height: 500px;
+    background-size: cover;
+    opacity: 0.9;
+    text-align: right;
+    color: white;
+    padding: 200px 0px 0px;
+}
+
+
+hr {
+    border-color: rgb(192, 192, 192);
+    width: 800px;
+    
+}
+
+#desc, #help {
+    margin: 80px 150px;
+}

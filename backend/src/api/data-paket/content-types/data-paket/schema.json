@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_pakets",
+  "info": {
+    "singularName": "data-paket",
+    "pluralName": "data-pakets",
+    "displayName": "DataPaket"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "namaPaket": {
+      "type": "string",
+      "required": true
+    },
+    "isiPaket": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

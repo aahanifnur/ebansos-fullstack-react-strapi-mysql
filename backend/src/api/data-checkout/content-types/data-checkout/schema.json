@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_checkouts",
+  "info": {
+    "singularName": "data-checkout",
+    "pluralName": "data-checkouts",
+    "displayName": "DataCheckout"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NIK": {
+      "type": "biginteger",
+      "required": true
+    },
+    "namaPenerima": {
+      "type": "string",
+      "required": true
+    },
+    "alamat": {
+      "type": "text",
+      "required": true
+    },
+    "tanggal": {
+      "type": "date"
+    }
+  }
+}

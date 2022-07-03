@@ -1,0 +1,2 @@
+email	: strapi@email.com
+pw	: Test1234
